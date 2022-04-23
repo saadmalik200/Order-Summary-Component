@@ -1,0 +1,145 @@
+* {
+box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Red-Hat;
+    /* font-style: normal; */
+    src:local(''), url(./Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    font-family:red-hat;
+}
+
+#box {
+    border: 0.05px rgba(228, 221, 221, 0.87) solid;
+    /* border-radius: 6px; */
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+
+
+    
+} 
+
+
+.backImg {
+    padding: 0%;
+    margin: 0;
+    background-image: url(./images/illustration-hero.svg);
+    background-size: cover;
+    height: 150px;
+    border-radius: 6px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.orderText {
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+}
+
+
+
+.orderText p {
+    margin: 0;
+    font-size: 12px;
+}
+
+h1 {
+    padding-top: 40px;
+    margin: 0%;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.annualPlan {
+    /* display: flex; */
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+    
+    width: 250px;
+    text-align: center;
+    background-color: hsl(225, 100%, 98%);
+  gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+    /* justify-content: space-evenly; */
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 30px;
+ 
+}
+.annualPlan h2 {
+    font-size: 12px;
+}
+
+.annualPlan h2 p {
+    font-weight: 500;
+    margin: 0%;
+}
+.annualPlan a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 12px;
+    /* margin-right: 10px;
+     */
+     margin-left: 40px;
+}
+.annualPlan img {
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.annualPlan p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.payment {
+
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 250px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    margin-top: 25px;
+}
+
+.payment p {
+    padding: 7px;
+    font-size: 12px;
+}
+
+.cancel {
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
